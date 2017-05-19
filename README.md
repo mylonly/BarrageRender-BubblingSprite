@@ -1,11 +1,13 @@
 # 基于BarrageRender自定义弹幕动画
 > [BarrageRender](https://github.com/unash/BarrageRenderer) 是iOS上一个非常出名的弹幕渲染开源框架,其可以让我们在App中非常方便的集成弹幕功能，其作者在代码中提供了两种方式的弹幕动画，`BarrageFloatSprite`和`BarrageWalkSprite`。可以说移动和浮动这两种动画方式基本上已经满足了大部分App的需求，但是仍然有部分App需要在弹幕的展现形式上更加的自由，例如各大直播平台的礼物弹幕。笔者将在这篇文章中分享自己在BarrageRender的基础上编写自定义礼物弹幕的过程。
 
+![博客地址](http://www.mylonly.com/14951753262754.html)
+
 <!-- more -->
-###先展示效果
+### 先展示效果
 ![弹幕效果](http://pic.mylonly.com/2017-05-19-1234.gif)
 
-###再介绍BarrageWalkSprite原理
+### 再介绍BarrageWalkSprite原理
 
 > BarrageWalkSprite和本文将要实现的自定义Sprite有一定的关联性，所以就通过分析BarrageWalkSprite的源码来展示BarrageRender渲染弹幕的原理，另外一个BarrageFloatSprite的渲染方式稍有不同，但是如果你能搞清楚BarrageWalkSprite的原理，理解FloatSprite的渲染方式也是很轻松的。
 
@@ -421,7 +423,7 @@ BarrageBubblingSprite的运动轨迹和BarrageWalkSprite的运动轨迹不同的
 类似BarrageWalkImageSprite，我们也通过继承BarrageSpirte的bindingView 来将自定义的弹幕view返回给BarrageRender
 
 
-###完整代码
+### 完整代码
 
 [BarrageRender-BubblingSprite](https://github.com/mylonly/BarrageRender-BubblingSprite)
 
