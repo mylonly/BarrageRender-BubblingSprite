@@ -1,7 +1,7 @@
 # 基于BarrageRender自定义弹幕动画
 > [BarrageRender](https://github.com/unash/BarrageRenderer) 是iOS上一个非常出名的弹幕渲染开源框架,其可以让我们在App中非常方便的集成弹幕功能，其作者在代码中提供了两种方式的弹幕动画，`BarrageFloatSprite`和`BarrageWalkSprite`。可以说移动和浮动这两种动画方式基本上已经满足了大部分App的需求，但是仍然有部分App需要在弹幕的展现形式上更加的自由，例如各大直播平台的礼物弹幕。笔者将在这篇文章中分享自己在BarrageRender的基础上编写自定义礼物弹幕的过程。
 
-![博客地址](http://www.mylonly.com/14951753262754.html)
+[博客地址](http://www.mylonly.com/14951753262754.html)
 
 <!-- more -->
 ### 先展示效果
